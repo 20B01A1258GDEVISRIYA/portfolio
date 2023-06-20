@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devi Sriya</title>
+    <link rel="icon" type="image/x-icon" href="/images/icons8-portfolio-64.png">
+    <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Carattere' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Corben">
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Train One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cherry Swash">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chakra Petch">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aboreto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Castoro Titling">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/38e923702d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <div id="header">
+        <div class="container">
+            <img src="/images/bg.png" class="hd-img">
+            <nav>
+                <img src="/images/logo.png">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>I am Devi Sriya</p>
+            </div>
+        </div>
+    </div> -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo1.png">
+                <ul id="bar">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="openmenu()" style="margin-right:-80px;"></i>
+            </nav>
+            <div class="header-text" align="center">
+                <p align="center">I am Devi Sriya</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------------about----------------------------------------------------->
+    <div class="about" >
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/user.png" alt="" style="margin-top:140px;">
+                </div>
+                <div class="about-col-2">
+                    <h1 align="center" style="font-family:Aboreto;font-size:40px;">ABOUT ME</h1>
+                    <br><br>
+                    <!-- <p style="font-family:Carattere;font-size:40px;color:chocolate">Self confident,motivative,determined to achieve perfection,good at communication skills and hardworking</p>
+                    <p style="font-family:Carattere;font-size:40px;color:chocolate">I participated in various events and received prizes.Additionally,I have also taken part in Datathon and Hackathon conducted in my college.</p> -->
+                    <div class="sub-titles">
+                        <p class="sub-links active-head" onclick="display('education')">Education</p>
+                        <p class="sub-links" onclick="display('internship')">Internship</p>
+                        <p class="sub-links" onclick="display('skills')">Skills</p>
+                        <p class="sub-links" onclick="display('courses')">Courses</p>
+                    </div>
+                    <div class="sub-contents active-list" id="education">
+                        <dl>
+                            <dt>B.Tech</dt>
+                            <dd>Shri Vishnu Engineering College for Women</dd>
+                            <dd>Bhimavaram</dd>
+                            <dd>2020-2024</dd>
+                            <dd>CGPA:9.35</dd>
+                            <br>
+                            <dt>Intermediate</dt>
+                            <dd>ViswaSai Junior College</dd>
+                            <dd>Nellore</dd>
+                            <dd>2018-2020</dd>
+                            <dd>CGPA:9.94</dd>
+                            <br>
+                            <dt>SSC</dt>
+                            <dd>Mythilee English Medium High School</dd>
+                            <dd>Nellore</dd>
+                            <dd>2018</dd>
+                            <dd>CGPA:10</dd>
+                        </dl>
+                    </div>
+                    <div class="sub-contents" id="internship" style="color:blue">
+                        <dl>
+                            <dt>Intern</dt>
+                            <dd>SmartInternz Organization</dd>
+                            <dd>Virtual internship</dd>
+                            <dd>Aug 2022-Sept 2022</dd>
+                            <dd><a href="https://smartinternz.com/internships/google_stu_certificates/9dded08b6cdd4ef785eb6cc9aa57c075">certificate</a></dd>
+                        </dl>
+                    </div>
+                    <div class="sub-contents" id="skills" style="color:rgb(220, 69, 42)">
+                        <ul>
+                            <li>Data Science</li>
+                            <br>
+                            <li>Database Management Systems-Oracle</li>
+                            <br>
+                            <li>Full Stack Web Development</li>
+                            <br>
+                            <li>Programming languages-C,Java,Python</li>
+                        </ul>
+                    </div>
+                    <div class="sub-contents" id="courses" style="color:darkorange">
+                        <ul>
+                            <li>Microsoft Azure Data Fundamentals and AI Fundamentals</li>
+                            <br>
+                            <li>Data Science by Pantech</li>
+                            <br>
+                            <li>HTML and CSS by LinkedIn</li>
+                            <br>
+                            <li>JS by Educba</li>
+                            <br>
+                        </ul>
+                        <a href="https://www.linkedin.com/in/govardhanam-devi-sriya-666927228/details/certifications/" style="text-decoration-line: none;color:rgb(70, 0, 128);font-size:30px;" align="center">certifications</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ____________________________projects______________________________________________________________________ -->
+<div class="projects" >
+    <!-- <div class="container">
+        <h1 class="subheading" align="center">PROJECTS</h1>
+        <br><br><br>
+        <div class="projects-list">
+             <div>
+                  <p style="font-family:Carattere;font-size:60px">E-certificate generation system</p>
+                  <br>
+                  <a href="https://20b01a1258gdevisriya.github.io/ecertificates/"> <img src="/images/certificate.png" alt="" class="p1"></a>
+             </div>
+             <div>
+                <p style="font-family:Carattere;font-size:60px">Simple banking system</p>
+                  <br>
+                  <a href="https://20b01a1258gdevisriya.github.io/bankingsystem/"> <img src="/images/bank.png" alt="" class="p1"></a>
+             </div>
+        </div>
+    </div> -->
+    <div class="container" >
+        <h1 align="center" style="font-family: Train One;" class="project-heading">PROJECTS</h1>
+        <br>
+        <div class="projects-list">
+              <div class="project-1">
+                 <h2 style="font-size:40px;color:darkcyan">E-certificate generation system <span><i class="fa-solid fa-certificate"></i></span></h2>
+                 <br>
+                 <p style="font-family:Chakra Petch;font-size:30px">It is used to generate certificates by verifying students's data.It was developed using EJS framework and Google Firebase.</p>
+                 <br>
+                 <a href="https://20b01a1258gdevisriya.github.io/ecertificates/" align="center"> <img src="/images/certificate.png" alt="" class="p1"></a>
+                 <br>
+                 <a href="https://ejs.co/" style="font-family:Train One;font-size:30px">Know More about EJS</a>
+                 <br>
+              </div>
+              <div class="project-2">
+                <h2 style="font-size:40px;color: darkcyan;">Simple banking system <span><i class="fa-solid fa-building-columns"></i></span></h2>
+                <br>
+                <p style="font-family:Chakra Petch;font-size:30px">It is used to identify sample banking interface.It was developed using EJS Framework and Google firebase.</p>
+                <br>
+                <a href="https://20b01a1258gdevisriya.github.io/bankingsystem/" align="center"> <img src="/images/bank.png" alt="" class="p1"></a>
+                <br>
+                <a href="https://firebase.google.com/?gad=1&gclid=CjwKCAjw1YCkBhAOEiwA5aN4AUk46qvD0NMJ5MKr7ySDSuoeXptIqJZ-dWHWGwUqAmQiqLkQ1dkzfhoC1YUQAvD_BwE&gclsrc=aw.ds" style="font-family:Train One;font-size:30px">Want to know about Firebase?</a>
+                <br>
+              </div>
+        </div>
+    </div>
+<!---------------------------------------------------------contact------------------------------------------------------------------------->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="image">
+                <img src="/images/contact.png" alt="">
+            </div>
+            <div class="contact-left">
+                <h1 class="contact-me">Contact Me</h1>
+                <p><span><i class="fa-solid fa-at"></i></span><span style="font-size:25px;"> govardhanamdevisriya@gmail.com</span></p>
+                <p><span><i class="fa-solid fa-phone"></i></span><span style="font-size:25px;">6304466956</span></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/govardhanam-devi-sriya-666927228/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/20B01A1258GDEVISRIYA"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <br><br>
+                <a href="/images/resume.png" class="b" download>Download</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="name" placeholder="name" required>
+                    <input type="email" name="email" placeholder="email" required>
+                    <textarea name="message"  rows="5" placeholder="enter your message"></textarea>
+                    <button type="submit" class="b" ><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
