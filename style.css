@@ -261,7 +261,7 @@ dd{
 /* ----------------------------------------------------------------responsiveness------------------------------- */
 @media only screen and (max-width: 600px) {
     #header{
-        background-image:url(./images/bg2.png);
+        background-image:url(./images/bg3.png);
         width:100%;
         margin-top:10vh;
         margin-left:100px;
