@@ -75,7 +75,7 @@ nav ul li a:hover::after{
 }
 .header-text p{
     margin-top:39%;
-    /* margin-left:590px; */
+    margin-left:52vh;
     font-size:110px;
     font-family:'Carattere';
   background-image: linear-gradient(-225deg, #f804e4 0%, #44107a 29%, #ff1361 67%,#00eaff 100%);
@@ -264,8 +264,11 @@ dd{
         background-image:url(./images/bg3.png);
         width:100%;
         margin-top:10vh;
-        margin-left:100px;
+        margin-left:60px;
         background-position:center;
+    }
+    nav img{
+        margin-left:-20px;
     }
     .header-text{
         margin-top:100%;
@@ -273,7 +276,8 @@ dd{
     }
     .header-text p{
        font-size: 50px;
-       margin-top:30vh;
+       margin-top:15vh;
+       margin-left:-30px;
     }
     .p1{
         margin-left: -5rem;
@@ -283,7 +287,7 @@ dd{
     }
     nav .fa-solid{
         display:block;
-        font-size:20px;
+        font-size:30px;
     }
     nav ul{
         background-color: #f0685e;
@@ -307,14 +311,19 @@ dd{
         left:25px;
         cursor:pointer;
     }
-    .about-col-1,.about-col-2{
-        flex-basis: 100%;
+    .about-col-1{
+        display:none;
     }
     .about-col-2 h1{
         margin-left:150px;
+        margin-left:-10px;
     }
     .sub-links{
         font-size:20px;
+        margin-left:-10px;
+    }
+    .sub-contents{
+        font-size: 20px;
     }
     dt{
         font-size:20px;
@@ -328,23 +337,31 @@ dd{
     }
     .project-heading{
         margin-left:250px;
+        margin-left:-10px;
     }
     .project-1{
-        margin-left:100px;
+        /* margin-left:80px; */
         width:500px;
     }
     .project-1 img{
         margin-left:20px;
     }
     .project-2{
-        margin-left:100px;
+        /* margin-left:80px; */
         width:500px;
     }
     .project-2 img{
         margin-left:20px;
     }
+    /* .contact-image{
+        margin-left:-70px;
+    } */
+    .contact-image img{
+        width:600px;
+    }
     .contact-left{
-        margin-left:60px;
+        margin-top:600px;
+        margin-left:-500px;
     }
     .b{
         margin-left:100px;
